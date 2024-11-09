@@ -26,7 +26,7 @@ This project includes various exercises to explore the features and capabilities
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/sass-practice.git
+   git clone https://github.com/dadangharianto/sass-learn.git
    ```
 
 2. Navigate to the project directory:
