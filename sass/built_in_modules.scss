@@ -1,0 +1,24 @@
+//Base
+$warna-dasar: salmon;
+h1 {
+  color: $warna-dasar;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+//Built-in Modules::-webkit-scrollbar-corner
+/* adjust-color($color,
+$red: null, $green:null, $blue: null,
+$hue: null, $saturation: null, $lightness: null,
+$whiteness: null, $blackness: null,
+$alpha: null)
+*/
+
+h1 {
+  color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
+}
+
+// adjust-hue($color, $degree);
+h1 {
+  color: adjust-hue($warna-dasar, 30deg);
+}
