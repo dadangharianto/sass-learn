@@ -11,9 +11,5 @@ $whiteness: null, $blackness: null,
 $alpha: null)
 */
 h1 {
-  color: #c8e4d6;
-}
-
-h1 {
-  color: #fac472;
+  color: rgba(250, 128, 114, 0.6);
 }/*# sourceMappingURL=built_in_modules.css.map */

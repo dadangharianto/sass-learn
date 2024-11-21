@@ -14,11 +14,56 @@ $whiteness: null, $blackness: null,
 $alpha: null)
 */
 
-h1 {
-  color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
-}
+// h1 {
+//   color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
+// }
 
 // adjust-hue($color, $degree);
 h1 {
-  color: adjust-hue($warna-dasar, 30deg);
+  //   color: adjust-hue($warna-dasar, 30deg);
+}
+
+//complement($color)
+h1 {
+  //   color: complement($warna-dasar);
+}
+
+//darken($color, $amount)
+h1 {
+  //   color: darken($warna-dasar, 20%);
+}
+
+//ligten($color, $amount)
+h1 {
+  //   color: lighten($warna-dasar, 2%);
+}
+
+// saturate($color, $amount)
+h1 {
+  //   color: saturate($warna-dasar, 50%);
+}
+
+//desaturate($color, $amount)
+h1 {
+  //   color: desaturate($warna-dasar, 10%);
+}
+
+//grayscale($color)
+h1 {
+  //   color: grayscale($warna-dasar);
+}
+
+//mix($color1, $color2, $weight: 50%) default 50%
+h1 {
+  //   color: mix($warna-dasar, blue, 70%);
+}
+
+//fade-in($color, $amount)
+h1 {
+  //   color: fade-in(rgba(250, 128, 114, 0.2), 0.5);
+}
+
+//fade-out($color, $amount)
+h1 {
+  color: fade-out($warna-dasar, 0.4);
 }
